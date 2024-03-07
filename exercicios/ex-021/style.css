@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(54, 86, 86);
+    margin: 0px;
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 48px 2px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav > a {
+    margin-right: 35px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+nav{
+    background-color: gray;
+    padding: 3px;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.425);
+}
+
+footer > p {
+    margin: 0px;
+}
