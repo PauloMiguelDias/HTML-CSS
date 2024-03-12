@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.poesia{
+    background-color: gray;
+    width: auto;
+    height: 300px;
+}
+
+
+.normal{
+    padding: 60px 15px;
+}
+
+.normal > p{
+    margin: 0px;
+}
+
+.poesia > p{
+    margin: 0px;
+}
+
+.poesia{
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+    background-position: right center;
+
+}
+
+.poesia2{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: right center;
+}
+.texto{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
+
