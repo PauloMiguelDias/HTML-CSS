@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela 5</title>
+    <style>
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+
+        .cnome{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>exercicios de tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>nome</th>
+                <th>sexo</th>
+                <th>idade</th>
+                <th>profissao</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ana maria</td>
+                <td>feminino</td>
+                <td>21</td>
+                <td>guitarrista</td>
+            </tr>
+            <tr>
+                <td>claudio</td>
+                <td>masculino</td>
+                <td>22</td>
+                <td>programador</td>
+            </tr>
+            <tr>
+                <td>paulo</td>
+                <td>masculino</td>
+                <td>18</td>
+                <td>fotografo</td>
+            </tr>
+            <tr>
+                <td>flavia</td>
+                <td>feminino</td>
+                <td>28</td>
+                <td>professora</td>
+            </tr>
+            <tr class="destaque">
+                <td>jennifer</td>
+                <td>feminino</td>
+                <td>18</td>
+                <td>biologa</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
